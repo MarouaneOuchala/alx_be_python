@@ -28,7 +28,7 @@ def main():
         return
 
     # Print the reminder
-    print("\nReminder:", message)
+    print("\nReminder:")
 
 if __name__ == "__main__":
     main()
