@@ -21,4 +21,7 @@ if time_bound == "yes":
     reminder += " This task requires immediate attention today!"
 
 # Print the final reminder
+print("\n--- Daily Reminder ---")
 print(reminder)
+print("----------------------")
+
