@@ -21,13 +21,6 @@ class Circle(Shape):
 
     def area(self):
         return math.pi * (self.radius ** 2)
-
-# Testing Polymorphism
-shapes = [
-    Rectangle(10, 5),  # Rectangle with length=10, width=5
-    Circle(7),         # Circle with radius=7
-]
-
 # Correct output
 for shape in shapes:
     if isinstance(shape, Rectangle):
