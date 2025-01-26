@@ -34,7 +34,7 @@ class PrintBook(Book):
 # Composition: Library
 class Library:
     def __init__(self):
-        self.books: list[Book] = []  # A list to store instances of Book, EBook, and PrintBook
+        self.books = []  # A list to store instances of Book, EBook, and PrintBook
 
     def add_book(self, book: Book):
         if isinstance(book, Book):  # Ensure the added object is an instance of Book or its subclasses
@@ -45,4 +45,3 @@ class Library:
     def list_books(self):
         for book in self.books:
             print(book)
-
