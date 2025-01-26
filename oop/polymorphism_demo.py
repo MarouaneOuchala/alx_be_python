@@ -28,8 +28,8 @@ shapes = [
     Circle(7),         # Circle with radius=7
 ]
 
+# Correct output
 for shape in shapes:
-    # Adjusting output formatting
     if isinstance(shape, Rectangle):
         print(f"The area of the Rectangle is: {int(shape.area())}")
     elif isinstance(shape, Circle):
