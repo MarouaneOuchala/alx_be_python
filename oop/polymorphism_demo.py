@@ -21,14 +21,3 @@ class Circle(Shape):
 
     def area(self):
         return math.pi * (self.radius ** 2)
-
-# Testing Polymorphism
-shapes = [
-    Rectangle(10, 5),  # Rectangle with length=10, width=5
-    Circle(7),         # Circle with radius=7
-]
-
-# Correct output
-    
-        print(f"The area of the Rectangle is: {int(shape.area())}")
-        print(f"The area of the Circle is: {shape.area()}")
