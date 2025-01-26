@@ -29,7 +29,6 @@ shapes = [
 ]
 
 # Correct output
-    if isinstance(shape, Rectangle):
+    
         print(f"The area of the Rectangle is: {int(shape.area())}")
-    elif isinstance(shape, Circle):
         print(f"The area of the Circle is: {shape.area()}")
