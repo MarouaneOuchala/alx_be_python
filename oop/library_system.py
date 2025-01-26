@@ -7,7 +7,7 @@ class Book:
         self.author = author
 
     def __str__(self):
-        return f"Book - Title: {self.title}, Author: {self.author}"
+        return f"Book: {self.title} by {self.author}"
 
 # Derived Class: EBook
 class EBook(Book):
@@ -18,7 +18,7 @@ class EBook(Book):
         self.file_size = file_size
 
     def __str__(self):
-        return f"EBook - Title: {self.title}, Author: {self.author}, File Size: {self.file_size}MB"
+        return f"EBook: {self.title} by {self.author}, File Size: {self.file_size}KB"
 
 # Derived Class: PrintBook
 class PrintBook(Book):
@@ -29,7 +29,7 @@ class PrintBook(Book):
         self.page_count = page_count
 
     def __str__(self):
-        return f"PrintBook - Title: {self.title}, Author: {self.author}, Pages: {self.page_count}"
+        return f"PrintBook: {self.title} by {self.author}, Page Count: {self.page_count}"
 
 # Composition: Library
 class Library:
